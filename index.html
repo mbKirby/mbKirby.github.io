@@ -4,7 +4,8 @@
 <head>
     <!-- Required meta tags -->
     <script src="https://use.fontawesome.com/a70310ec2f.js"></script>
-    <link rel="icon" href="https://image.flaticon.com/icons/png/512/2395/2395608.png">
+    <link rel="icon"
+        href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2aad1460-ca9b-412a-866f-a60702042960/d32ykh1-8a79a3a3-fbf7-4542-85f1-e1c0052bb613.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJhYWQxNDYwLWNhOWItNDEyYS04NjZmLWE2MDcwMjA0Mjk2MFwvZDMyeWtoMS04YTc5YTNhMy1mYmY3LTQ1NDItODVmMS1lMWMwMDUyYmI2MTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dLG_E84a20q9pJQlaNXuxF4TYm-5vNvXwN45eULojFM">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,7 +28,10 @@
                             <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">About</a>
+                            <a class="nav-link text-light" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="#">Resume</a>
@@ -48,41 +52,67 @@
         </div>
     </div>
     <!--end welcome section -->
-    <div class="container my-5 py-5 text-center text-white">
+    <div id="about" class="container my-5 py-5 text-center text-white">
         <h2>About me</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptas nisi fugit, doloremque hic
             perferendis, cum accusamus unde cupiditate quia placeat? Expedita natus, provident voluptate nisi quasi
             aliquid? Quae, at.</p>
     </div>
-    <div class="container my-5 py-5 text-center text-white">
+    <div class="container my-5 py-5 text-center text-white ">
         <h2>Projects</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sed ducimus rerum dolores labore quisquam,
-            earum provident, consequatur repellat illum voluptates aut laudantium rem nesciunt, neque recusandae.
-            Quaerat, laudantium odio.</p>
+        <div class="card  col-sm-12 col-md-6 col-lg-4 bg-secondary"">
+            <img src=" C:\Users\Hunter\pdxCode\mbKirby.github.io\pictures\dice_roller.JPG"
+            class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Dice roller</h5>
+                <p class="card-text">Simple character sheet and dice roller made with python and pysimplegui.</p>
+                <a href="https://github.com/PdxCodeGuild/class_lemur/tree/main/code/matt/mini_capstone"
+                    class="btn btn-dark">source code</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="skills" class="container my-5 py-5 text-center text-white">
+        <h2>Skills</h2>
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png"
+                    class="img-fluid" alt="">
+            </div>
+            <div class="col-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Devicon-html5-plain.svg/640px-Devicon-html5-plain.svg.png"
+                    class="img-fluid" alt="">
+            </div>
+            <div class="col-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/640px-CSS3_logo.svg.png"
+                    class="img-fluid" alt="">
+            </div>
+        </div>
     </div>
 
 
 
     <!-- Start footer Section -->
-    <footer class="text-center justify-content-center bg-secondary text-muted mt-5">
+    <footer class="text-center  bg-secondary text-muted mt-5">
 
         <div class="container py-3">
             <!-- Section: Social media -->
-            <section class="mb-4 text-white">
-                <!-- Facebook -->
-                <a href="#" class="link-warning"> <i class="fa fa-facebook-square fa-2x"></i></a>
-                <a href="#" class="link-warning"> <i class="fa fa-twitter-square fa-2x"></i></a>
+            <section class="mb-4 ">
+
                 <a href="https://github.com/mbKirby" class="link-warning"> <i class="fa fa-github-square fa-2x"></i></a>
+                <a href="#" class="link-warning"> <i class="fa fa-twitter-square fa-2x"></i></a>
                 <a href="#" class="link-warning"> <i class="fa fa-linkedin-square fa-2x"></i></a>
 
             </section>
+            <!-- Section: Social media -->
         </div>
         <!-- Copyright -->
         <div class="text-center text-dark p-3">
             <p class="text-dark">© 2021 Copyright: Matthew Kirby</p>
         </div>
         <!-- Copyright -->
-        <!-- Section: Social media -->
     </footer>
     <!-- End footer section -->
 
