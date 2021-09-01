@@ -13,6 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <title>Matthew Kirby</title>
 </head>
@@ -23,21 +24,27 @@
         <nav class="navbar bg-secondary">
             <div class="col">
                 <nav>
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Resume</a>
-                        </li>
-                    </ul>
-                </nav>
+                    <div class="row">>
+                        <h3 class="col text-white" style="font-family: 'Rock Salt', cursive;">Matthew Kirby</h3>
+
+                        <ul class="nav justify-content-end col">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Resume</a>
+                            </li>
+                        </ul>
+                    </div </nav>
             </div>
         </nav>
     </div>
@@ -45,8 +52,8 @@
 
     <!-- welcome section -->
     <div class="row my-5 text-center justify-content-center">
-        <h1 class="text-white">Matthew Kirby</h1>
-        <div class="col-4">
+
+        <div class="col-6">
             <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-9/46275263_10156798625367673_4216319461193416704_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=cuw19atJ_QYAX_aAC2o&_nc_ht=scontent-iad3-1.xx&oh=e55b9bc2b7a6054c1d11b7401833e693&oe=61527397"
                 class="img-fluid" alt="Image if Matthew">
         </div>
@@ -54,18 +61,18 @@
     <!--end welcome section -->
     <div id="about" class="container my-5 py-5 text-center text-white">
         <h2>About me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptas nisi fugit, doloremque hic
-            perferendis, cum accusamus unde cupiditate quia placeat? Expedita natus, provident voluptate nisi quasi
-            aliquid? Quae, at.</p>
+        <p>Hi, my name is Matthew Kirby, and I'm currently in a coding bootcamp. I also have an
+            assossiates in computer science.
+        </p>
     </div>
-    <div class="container my-5 py-5 text-center text-white ">
+    <div id="projects" class="container my-5 py-5 text-center text-white ">
         <h2>Projects</h2>
-        <div class="card  col-sm-12 col-md-6 col-lg-4 bg-secondary"">
+        <div class="card  col-sm-12 col-md-6 col-lg-4 bg-secondary mt-5"">
             <img src=" https://github.com/mbKirby/mbKirby.github.io/blob/master/pictures/dice_roller.JPG?raw=true"
-            class="card-img-top img-fluid" alt="Image of dice roller GUI">
+            class="card-img-top img-fluid" alt="Image of dice roller GUI" style="height: 35vh;">
             <div class="card-body">
                 <h5 class="card-title">Dice roller</h5>
-                <p class="card-text">Simple character sheet and dice roller made with python and pysimplegui.</p>
+                <p class="card-text">Simple dice roller and character sheet made with python and pysimplegui.</p>
                 <a href="https://github.com/PdxCodeGuild/class_lemur/tree/main/code/matt/mini_capstone"
                     class="btn btn-dark">source code</a>
             </div>
@@ -102,8 +109,10 @@
             <section class="mb-4 ">
 
                 <a href="https://github.com/mbKirby" class="link-warning"> <i class="fa fa-github-square fa-2x"></i></a>
-                <a href="#" class="link-warning"> <i class="fa fa-twitter-square fa-2x"></i></a>
-                <a href="#" class="link-warning"> <i class="fa fa-linkedin-square fa-2x"></i></a>
+                <a href="https://twitter.com/KirbzMcGerbz" class="link-warning"> <i
+                        class="fa fa-twitter-square fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/matthew-kirby-a41689207/" class="link-warning"> <i
+                        class="fa fa-linkedin-square fa-2x"></i></a>
 
             </section>
             <!-- Section: Social media -->
@@ -115,9 +124,6 @@
         <!-- Copyright -->
     </footer>
     <!-- End footer section -->
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
