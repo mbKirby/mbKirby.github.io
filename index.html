@@ -43,7 +43,7 @@
     <!-- Begin nav bar -->
 
     <header class="sticky-top">
-        <nav class="navbar bg-secondary py-0">
+        <nav class="navbar bg-secondary py-0 py-md-3">
             <div class="col">
                 <nav>
                     <div class="row">>
@@ -77,9 +77,9 @@
     <main>
         <div class="row my-5 text-center justify-content-center">
 
-            <div class="col-10 col-md-8 bg-image hover-zoom animated swing infinite">
+            <div class="col-10 col-md-8 bg-image hover-zoom">
                 <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-9/46275263_10156798625367673_4216319461193416704_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=cuw19atJ_QYAX_aAC2o&_nc_ht=scontent-iad3-1.xx&oh=e55b9bc2b7a6054c1d11b7401833e693&oe=61527397"
-                    class="img-fluid" alt="Image if Matthew">
+                    class="img-fluid rounded" alt="Image if Matthew">
 
             </div>
         </div>
@@ -135,34 +135,53 @@
 
 
     <!-- Start footer Section -->
-    <footer id="contact" class="text-center  bg-secondary text-muted mt-5 pt-5">
+    <footer id="contact" class="text-center  bg-secondary text-muted mt-5 pt-2">
 
-        <div class="container py-3">
-            <!-- Section: Social media -->
-            <article class="row">
-                <section class="col">
-                    <div class="mb-3">
-                        <label for="contact" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="contact" placeholder="name@example.com">
+        <div class="container py-1">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-dark mb-3" data-bs-toggle="modal" data-bs-target="#contact-model">
+                Contact Me
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="contact-model" tabindex="-1" aria-labelledby="contactLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content bg-secondary text-white">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="contactLabel">Contact Me</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <section class="col  ">
+                                <div class="mb-3">
+                                    <label for="contact " class="form-label  text-white">Email address</label>
+                                    <input type="email" class="form-control" id="contact" placeholder="name@example.com"
+                                        disabled>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label  text-white">Message</label>
+                                    <textarea class="form-control" id="message" rows="3" disabled></textarea>
+                                </div>
+                                <div>
+                                    <p class="btn btn-dark" disabled>send</p>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-dark">Send</button>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
-                    </div>
-                    <div>
-                        <p class="btn btn-dark">send</p>
-                    </div>
-                </section>
+                </div>
+            </div>
 
-                <section class="col mb-5 ">
+            <section class="col mb-1 ">
 
-                    <a href="https://github.com/mbKirby" class="link-warning px-3"> <i
-                            class="fa fa-github-square fa-2x"></i></a>
-                    <a href="https://www.linkedin.com/in/matthew-kirby-a41689207/" class="link-warning"> <i
-                            class="fa fa-linkedin-square fa-2x"></i></a>
-
-                </section>
-            </article>
+                <a href="https://github.com/mbKirby" class="link-warning "> <i
+                        class="fa fa-github-square fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/matthew-kirby-a41689207/" class="link-warning"> <i
+                        class="fa fa-linkedin-square fa-2x"></i></a>
+            </section>
             <!-- Section: Social media -->
         </div>
         <!-- Copyright -->
