@@ -1,0 +1,19 @@
+h2, h5 {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(255,193,7)
+}
+body {
+    font-family: 'Lora', serif;
+}
+.atag {
+    color: white;
+}
+
+.block {
+    display: block;
+}
+
+p ~ a:hover {
+    color: rgb(255,193,7)
+}
+

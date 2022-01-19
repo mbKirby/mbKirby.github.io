@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <script src="https://use.fontawesome.com/a70310ec2f.js"></script>
+    <link rel="icon"
+        href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2aad1460-ca9b-412a-866f-a60702042960/d32ykh1-8a79a3a3-fbf7-4542-85f1-e1c0052bb613.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJhYWQxNDYwLWNhOWItNDEyYS04NjZmLWE2MDcwMjA0Mjk2MFwvZDMyeWtoMS04YTc5YTNhMy1mYmY3LTQ1NDItODVmMS1lMWMwMDUyYmI2MTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dLG_E84a20q9pJQlaNXuxF4TYm-5vNvXwN45eULojFM">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+    <!-- mdbootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'portfolio/style.css' %}">
+
+    <title>Matthew Kirby</title>
+
+    <!-- DESCRIPTION REFERRER ROBOTS -->
+    <meta name="description" content="Matthew Kirby | Web Dev">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="robots" content="all">
+
+    <!-- OG, or Open Graph is Used by Many Crawlers to get Meta Data (facebook and others) -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Matthew Kirby Portfolio">
+    <meta property="og:description" content="The portfolio of Matthew Kirby, Web Developer">
+
+    <!-- Open Graph Image (Preview Image on Fb and others) -->
+    <meta property="og:image"
+        content="https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-9/46275263_10156798625367673_4216319461193416704_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=cuw19atJ_QYAX_aAC2o&_nc_ht=scontent-iad3-1.xx&oh=e55b9bc2b7a6054c1d11b7401833e693&oe=61527397">
+    <!-- following content values are dimensions of image in px -->
+    <meta property="og:image:width" content="[1050]">
+    <meta property="og:image:height" content="[630]">
+
+</head>
+
+<body class="container bg-dark">
+    <!-- Begin nav bar -->
+
+    <header class="sticky-top">
+        <nav class="navbar bg-secondary py-0 py-md-3">
+            <div class="col">
+                <nav>
+                    <div class="row">>
+                        <h3 class="col-md-4 col-12 pt-0 text-white text-center"
+                            style="font-family: 'Rock Salt', cursive;">
+                            Matthew Kirby
+                        </h3>
+
+                        <ul class="nav justify-content-evenly justify-content-md-end col-md col-12">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#skills">Skills</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <!-- end nav bar -->
+
+    <main>
+        {% if name %}
+        <div class="text-center">
+            <h2>Thanks {{ name }}</h2>
+            <p>I reiceived your email and will respond shortly</p>
+        </div>
+        {% endif %}
+        <div class="row my-5 text-center justify-content-center">
+
+            <div class="col-10 col-md-10 bg-image hover-zoom">
+                <img src="https://raw.githubusercontent.com/mbKirby/mbKirby.github.io/master/pictures/me.jpg"
+                    class="img-fluid rounded" alt="Image if Matthew">
+
+            </div>
+        </div>
+        <!--end welcome section -->
+
+        <!-- about section -->
+        <section id="about" class="container py-5 text-center text-white">
+            <h2 class="pt-4 mt-5 pt-md-0 mt-md-2">About me</h2>
+            <p>Hi, my name is Matthew Kirby, I have an associate's degree in computer programming as well as having
+                finished a bootcamp at <a class="atag" href="https://pdxcodeguild.com/">PdxCode Guild</a>. I enjoy
+                coding because I
+                like being able to create things that people
+                can interact with and use. I'm currently trying my hand at freelancing and assissting others as a tutor
+                for intro programming classes.
+            </p>
+        </section>
+        <!-- end about -->
+
+        <!-- projects section -->
+        <section id="projects" class="container text-center text-white mt-5 pt-5 mt-md-2 ">
+            <h2 class="mt-3 pt-5 pt-md-0">Projects</h2>
+            <div class="row justify-content-evenly">
+                <article class="card  col-12 col-md-6 col-xl-4 bg-secondary mt-5 ">
+                    <div>
+                        <div id="carosel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://github.com/mbKirby/mbKirby.github.io/blob/master/pictures/dice_roller.JPG?raw=true"
+                                        class="img-fluid" alt="dice roller image">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://github.com/mbKirby/mbKirby.github.io/blob/master/pictures/character_creation.JPG?raw=true"
+                                        class="img-fluid" alt="character creater img">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carosel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carosel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Dice roller</h5>
+                        <p class="card-text">Simple dice roller and character sheet made with python and pysimplegui.
+                        </p>
+                        <a href="https://github.com/PdxCodeGuild/class_lemur/tree/main/code/matt/mini_capstone"
+                            class="block btn btn-dark">source code</a>
+                    </div>
+                </article>
+                <article class="card  col-12 col-md-6 col-xl-4 bg-secondary mt-5 ">
+                    <div>
+                        <div id="carosel-2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://github.com/mbKirby/mbKirby.github.io/blob/master/pictures/dndcc-1.JPG?raw=true"
+                                        class="img-fluid" alt="dnd character sheet">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://github.com/mbKirby/mbKirby.github.io/blob/master/pictures/dndcc-2.JPG?raw=true"
+                                        class="img-fluid" alt="dnd character sheet 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://github.com/mbKirby/mbKirby.github.io/blob/master/pictures/dndcc-3.JPG?raw=true"
+                                        class="img-fluid" alt="dnd character creation proficiencies">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carosel-2"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carosel-2"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Dnd character creator</h5>
+                        <p class="card-text">Character creator made with vuejs, django, and django rest framework.
+                        </p>
+                        <a class="my-2 atag" href="http://dnd-character-creator2.herokuapp.com/">Link to Character
+                            Creator</a>
+                        <a href="https://github.com/mbKirby/CharacterCreatorVue" class="block my-2 btn btn-dark">vuejs
+                            source
+                            code</a>
+                        <a href="https://github.com/mbKirby/CharacterCreator" class="block my-2 btn btn-dark">django
+                            source
+                            code</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- end projects -->
+
+        <!-- skills section -->
+        <section id="skills" class="container mb-5 py-3 text-center text-white">
+            <h2 class="my-2 my-5 pt-5">Skills</h2>
+            <div class="row justify-content-evenly">
+                <div class="col-2">
+                    <img src="https://github.com/mbKirby/mbKirby.github.io/blob/master/pictures/python-logo.png?raw=true"
+                        class="img-fluid" alt="python logo">
+                </div>
+                <div class="col-2">
+                    <img src="https://github.com/mbKirby/mbKirby.github.io/blob/master/pictures/html-logo.png?raw=true"
+                        class="img-fluid" alt="html logo">
+                </div>
+                <div class="col-2">
+                    <img src="https://github.com/mbKirby/mbKirby.github.io/blob/master/pictures/css-logo.png?raw=true"
+                        class="img-fluid" alt="css logo">
+                </div>
+                <div class="col-2">
+                    <img src="https://github.com/mbKirby/mbKirby.github.io/blob/master/pictures/vue-logo.png?raw=true"
+                        class="img-fluid" alt="vue logo">
+                </div>
+                <div class="col-2 align-self-center">
+                    <img src="https://github.com/mbKirby/mbKirby.github.io/blob/master/pictures/django-logo.png?raw=true"
+                        class="img-fluid" alt="django logo">
+                </div>
+            </div>
+        </section>
+        <!-- end skills -->
+    </main>
+
+
+    <!-- Start footer Section -->
+    <footer id="contact" class="text-center  bg-secondary text-muted mt-5 pt-2">
+
+        <div class="container py-1">
+            <!--modal button-->
+            <button type="button" class="btn btn-dark mb-3" data-bs-toggle="modal" data-bs-target="#contact-model">
+                Contact Me
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="contact-model" tabindex="-1" aria-labelledby="contactLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content bg-secondary text-white">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="contactLabel">Contact Me</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <form action="" method="post">
+                                    {% csrf_token %}
+                                    {{ form.as_p}}
+                                    <input class="btn btn-dark" type="submit" value="submit">
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end modal -->
+
+            <section class="col mb-1">
+
+                <a href="https://github.com/mbKirby" class="link-warning px-2"> <i
+                        class="fa fa-github-square fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/matthew-kirby-a41689207/" class="link-warning"> <i
+                        class="fa fa-linkedin-square fa-2x"></i></a>
+            </section>
+
+        </div>
+        <!-- Copyright -->
+
+        <div class="text-center text-dark pt-0">
+            <p class="text-dark">© 2021 Copyright: Matthew Kirby</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- End footer section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
