@@ -8,6 +8,7 @@ express = "*"
 django = "*"
 gunicorn = "*"
 django_heroku="*"
+python-decouple="*"
 
 [dev-packages]
 
