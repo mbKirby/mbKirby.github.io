@@ -1,3 +1,4 @@
+theme: jekyll-theme-Midnight
 # CS 499 Capstone Project
 ## by Matthew Kirby
 
