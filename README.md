@@ -42,7 +42,77 @@ In the Software Design and Engineering section, I showcase my ability to develop
 
 
 ### Source Code
-https://github.com/mbKirby/MatthewKirbyInventory/tree/master
+### Overview
+In this section, I highlight my capability in software design and engineering with a focus on the Inventory Manager App. Below are key code snippets that demonstrate my proficiency in advanced features like notification systems and report generation. *Please visit my [GitHub repository](https://github.com/mbKirby/MatthewKirbyInventory/tree/master) for the complete code.*
+
+This snippet from the Inventory Manager App demonstrates an advanced implementation of Firebase Cloud Messaging (FCM). It showcases my ability to handle incoming notifications and data payloads effectively. This feature enhances the app's interactivity and responsiveness, providing real-time updates to users, which is crucial in modern application development.
+```
+   public void onMessageReceived(@NonNull RemoteMessage remoteMessage) {
+        super.onMessageReceived(remoteMessage);
+        Log.d("FCM", "From: " + remoteMessage.getFrom());
+
+        // Check if message contains a data payload.
+        if (remoteMessage.getData().size() > 0) {
+            Log.d("FCM", "Message data payload: " + remoteMessage.getData());
+        }
+
+        // Check if message contains a notification payload.
+        if (remoteMessage.getNotification() != null) {
+            Log.d("FCM", "Message Notification Body: " + remoteMessage.getNotification().getBody());
+            // Handle notification
+        }
+        if (remoteMessage.getNotification() != null) {
+            String title = remoteMessage.getNotification().getTitle();
+            String body = remoteMessage.getNotification().getBody();
+            // Call a method to display the notification
+            displayNotification(title, body);
+        }
+    }
+```
+Here, I've implemented a method to save user preferences for data export formats using Android's SharedPreferences. This snippet highlights my understanding of user-centric design principles and my ability to provide customizable experiences in applications.
+```
+ private void saveExportPreference() {
+        Spinner spinnerExportFormat = findViewById(R.id.spinnerExportFormat);
+        String selectedFormat = spinnerExportFormat.getSelectedItem().toString();
+
+        SharedPreferences preferences = getSharedPreferences("AppPreferences", MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString("ExportFormat", selectedFormat);
+        editor.apply();
+    }
+```
+This code demonstrates my proficiency in generating PDF reports, a vital feature for business applications. It reflects my skills in working with file systems and external libraries, showcasing a practical application of software engineering concepts.
+```
+private void exportAsPDF(List<Item> data) {
+        File directory = context.getExternalFilesDir(null);
+        File exportDir = new File(directory, "MyAppExports");
+        if (!exportDir.exists()) {
+            exportDir.mkdirs();
+        }
+
+        File file = new File(exportDir, "inventory.pdf");
+
+        try {
+            PdfWriter writer = new PdfWriter(file);
+            PdfDocument pdf = new PdfDocument(writer);
+            Document document = new Document(pdf);
+
+            for (Item item : data) {
+                document.add(new Paragraph("ID: " + item.getId()));
+                document.add(new Paragraph("Name: " + item.getItemName()));
+                document.add(new Paragraph("Quantity: " + item.getQuantity()));
+                document.add(new Paragraph("Description: " + item.getDescription()));
+                document.add(new Paragraph("\n")); // New Line
+            }
+
+            document.close();
+            Toast.makeText(context, "PDF Exported Successfully", Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(context, "Error in PDF Export", Toast.LENGTH_SHORT).show();
+        }
+    }
+```
 
 ### Narrative
 For a detailed journey of my enhancements and challenges in the Inventory Manager App, read my narrative here.
@@ -51,11 +121,45 @@ For a detailed journey of my enhancements and challenges in the Inventory Manage
 
 ## Algorithms and Data Structure Artifact
 ### Overview
-The Algorithms and Data Structure section highlights my expertise in algorithmic problem-solving and data manipulation, showcased through the integration of a quicksort algorithm into the Inventory Manager App. This enhancement underlines my proficiency in applying algorithmic principles and optimizing data structures for efficient inventory management.
+The Algorithms and Data Structure section highlights my expertise in algorithmic problem-solving and data manipulation, showcased through the integration of a quicksort algorithm into the Inventory Manager App. This enhancement underlines my proficiency in applying algorithmic principles and optimizing data structures for efficient inventory management. *Please visit my [GitHub repository](https://github.com/mbKirby/MatthewKirbyInventory/tree/master) for the complete code.*
 
 
 ### Source Code
+Here, I showcase my expertise in algorithmic thinking and data structure manipulation through the integration of the QuickSort algorithm in the Inventory Manager App. The following snippets demonstrate my skill in efficiently sorting and managing data.
+This snippet illustrates my ability to implement and optimize a crucial part of the QuickSort algorithm: the partitioning process. It highlights my understanding of algorithms and efficient data manipulation, a key skill in software development.
+```
+private int partition(List<Item> items, int low, int high, SortCriteria criteria, SortOrder order) {
+        // Random pivot selection to improve performance
+        int pivotIndex = new Random().nextInt(high - low) + low;
+        Item pivot = items.get(pivotIndex);
+        swap(items, pivotIndex, high);
 
+        int i = low - 1;
+        for (int j = low; j < high; j++) {
+            if (compare(items.get(j), pivot, criteria, order) <= 0) {
+                i++;
+                swap(items, i, j);
+            }
+        }
+        swap(items, i + 1, high);
+        return i + 1;
+    }
+```
+In this snippet, I demonstrate how to integrate the QuickSort algorithm into a functional component of my application. This reflects not only my algorithmic knowledge but also my capability to apply these concepts in a practical, user-facing scenario.
+```
+private void performSort(String selectedOption, boolean isAscendingOrder) {
+        List<Item> allItems = itemDatabaseHelper.getItems(); // Fetch items from the database
+
+        QuickSortManager.SortCriteria criteria = determineCriteria(selectedOption);
+        QuickSortManager.SortOrder order = determineOrder(isAscendingOrder);
+
+        quickSortManager.quickSort(allItems, criteria, order); // Perform sorting
+
+        adapter.updateItemList(allItems); // Update the adapter with the sorted list
+        adapter.notifyDataSetChanged(); // Notify the adapter to refresh the RecyclerView
+
+    }
+```
 
 ### Narrative
 Discover more about my algorithmic approach and the learning curve in this project by reading my narrative here.
@@ -68,8 +172,9 @@ In the Databases section, I present my skills in database management and securit
 
 
 ### Source Code
-https://github.com/mbKirby/CS-340-Client-Server-Development
+In the Databases section, I display my proficiency in database management and security through the MongoDB Python Module for the Grazioso Salvare web app. The following code excerpt exemplifies my ability in ensuring data integrity and secure handling. *Please visit my [GitHub repository]([https://github.com/mbKirby/CS-340-Client-Server-Development]) for the complete code.*
 
+This code snippet showcases my attention to database security and data integrity. By implementing thorough data validation, I demonstrate my commitment to writing secure and reliable database interactions.
 ```
 def _validate_data(self, data):
         # Basic validation checks on the data
