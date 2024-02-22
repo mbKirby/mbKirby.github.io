@@ -7,10 +7,11 @@ Welcome to my CS 499 Capstone Project GitHub Page. This portfolio showcases my s
 
 ### Table of Contents
 1. [Professional Self-Assessment](#professional-self-assessment)
-2. [Software Design and Engineering Artifact](#software-design-and-engineering-artifact)
-3. [Algorithms and Data Structure Artifact](#algorithms-and-data-structure-artifact)
-4. [Databases Artifact](#databases-artifact)
-5. [Contact Information](#contact-information)
+2. [Code Review](#code-review)
+3. [Software Design and Engineering Artifact](#software-design-and-engineering-artifact)
+4. [Algorithms and Data Structure Artifact](#algorithms-and-data-structure-artifact)
+5. [Databases Artifact](#databases-artifact)
+6. [Contact Information](#contact-information)
 
 ---
 
@@ -35,6 +36,8 @@ In conclusion, my ePortfolio is a comprehensive showcase of my skills and learni
 ---
 
 ### Code Review
+
+---
 
 ## Software Design and Engineering Artifact
 ### Overview
@@ -121,7 +124,8 @@ For a detailed journey of my enhancements and challenges in the Inventory Manage
 
 ## Algorithms and Data Structure Artifact
 ### Overview
-The Algorithms and Data Structure section highlights my expertise in algorithmic problem-solving and data manipulation, showcased through the integration of a quicksort algorithm into the Inventory Manager App. This enhancement underlines my proficiency in applying algorithmic principles and optimizing data structures for efficient inventory management. *Please visit my [GitHub repository](https://github.com/mbKirby/MatthewKirbyInventory/tree/master) for the complete code.*
+The Algorithms and Data Structure section highlights my expertise in algorithmic problem-solving and data manipulation, showcased through the integration of a quicksort algorithm into the Inventory Manager App. This enhancement underlines my proficiency in applying algorithmic principles and optimizing data structures for efficient inventory management. [View the complete source code on GitHub](https://github.com/mbKirby/MatthewKirbyInventory/tree/master)
+
 
 
 ### Source Code
@@ -172,7 +176,7 @@ In the Databases section, I present my skills in database management and securit
 
 
 ### Source Code
-In the Databases section, I display my proficiency in database management and security through the MongoDB Python Module for the Grazioso Salvare web app. The following code excerpt exemplifies my ability in ensuring data integrity and secure handling. *Please visit my [GitHub repository]([https://github.com/mbKirby/CS-340-Client-Server-Development]) for the complete code.*
+In the Databases section, I display my proficiency in database management and security through the MongoDB Python Module for the Grazioso Salvare web app. The following code excerpt exemplifies my ability in ensuring data integrity and secure handling. [View the complete source code on GitHub](https://github.com/mbKirby/CS-340-Client-Server-Development)
 
 This code snippet showcases my attention to database security and data integrity. By implementing thorough data validation, I demonstrate my commitment to writing secure and reliable database interactions.
 ```
@@ -194,6 +198,5 @@ Learn about my journey in database management and the enhancements I made by rea
 ---
 
 ## Contact Information
-- Email: [matthew.kirby90@yahoo.com](mailto:matthew.kirby90@yahoo.com)
 - LinkedIn: [Matthew Kirby](https://www.linkedin.com/in/matthew-kirby-a41689207/)
 - GitHub: [mbKirby](https://github.com/mbKirby)
