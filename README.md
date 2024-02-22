@@ -15,6 +15,21 @@ Welcome to my CS 499 Capstone Project GitHub Page. This portfolio showcases my s
 ---
 
 ## Professional Self-Assessment
+As I reflect on my journey through the Computer Science program at SNHU, I realize how significantly my coursework and the development of my ePortfolio have shaped my professional trajectory. My initial interest in backend development evolved, leading me to a profound appreciation for front-end development and UI design. This shift is not just a change in interest but a testament to the program's influence in expanding my perspective and skills. My projects in CS 360 Mobile Architect Programming and MongoDB Python module showcase my adaptability and technical skills.
+
+Collaboration and Communication :
+My project on the Inventory Manager App, as part of CS 360 Mobile Architect Programming, is a prime example of my growth in collaborative environments and communication. By enhancing the notification system I’ve improved communication with the users which has shown my ability to design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts. Additionally, implementing the report generation and data export features required me to think critically about user needs and preferences, which allowed me to employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in computer science. Overall, this process improved my ability to engage with diverse audiences and communicate complex technical information easily.
+
+Algorithms and Data Structures :
+The implementation of a quicksort algorithm in the Inventory Management app was a direct application of algorithmic principles. This enhancement displays my ability to design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.
+
+Innovative Techniques and Tools :
+My work on the MongoDB Python Module for the Grazioso Salvare web app demonstrates my proficiency using innovative techniques and tools. By integrating CRUD operations through a form and enhancing mobile responsiveness. These actions showcase my ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals.
+Security Mindset :
+Throughout the program, I’ve developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. For example, for my MongoDB Python project, I integrated essential validation and sanitization methods for POST requests, ensuring robust defense against data manipulation and injection attacks. Additionally, I’ve ensured that database connections and environmental variables are stored in their file and are not publicly available. In addition, I worked on a project for CS-465 where I developed a user registration and login system, incorporating JWT tokens to validate user sessions. These and many other instances in my time at SNHU have reinforced a security mindset.
+Integrating Artifacts and Skills:
+Each of these projects and enhancements has contributed to a cohesive narrative of my abilities and growth in the field of computer science. The Inventory Manager App and MongoDB Python Module showcase my front-end development and user interface design skills as well as highlight my backend development capabilities and my understanding of database security.
+In conclusion, my ePortfolio is a comprehensive showcase of my skills and learning journey in the Computer Science program. It reflects not only my technical abilities but also my adaptability, problem-solving skills, and commitment to continuous learning and improvement. As I step into the professional world, I am confident in my ability to contribute effectively and innovatively in various roles within the computer science field.
 
 
 ---
