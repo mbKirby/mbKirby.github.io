@@ -120,7 +120,7 @@ private void exportAsPDF(List<Item> data) {
 ```
 
 ### Narrative
-For a detailed journey of my enhancements and challenges in the Inventory Manager App, read my narrative here.
+For a detailed journey of my enhancements and challenges in the Inventory Manager App, read my narrative [here](https://github.com/mbKirby/MatthewKirbyInventory/blob/master/Software%20Design%20Narrative).
 
 ---
 
@@ -168,7 +168,7 @@ private void performSort(String selectedOption, boolean isAscendingOrder) {
 ```
 
 ### Narrative
-Discover more about my algorithmic approach and the learning curve in this project by reading my narrative here.
+Discover more about my algorithmic approach and the learning curve in this project by reading my narrative [here](https://github.com/mbKirby/MatthewKirbyInventory/blob/master/AlgorithmNarrative.txt).
 
 ---
 
