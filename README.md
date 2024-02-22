@@ -120,7 +120,9 @@ private void exportAsPDF(List<Item> data) {
 ```
 
 ### Narrative
-For a detailed journey of my enhancements and challenges in the Inventory Manager App, read my narrative [here](https://github.com/mbKirby/MatthewKirbyInventory/blob/master/Software%20Design%20Narrative).
+For a detailed journey of my enhancements and challenges in the Inventory Manager App, read my narrative [here](https://github.com/mbKirby/MatthewKirbyInventory/blob/master/Software%20Design%20Narrative). For a downloadable version of the narrative, please visit [my repository on GitHub](https://github.com/mbKirby/MatthewKirbyInventory/tree/master).
+
+
 
 ---
 
@@ -168,7 +170,8 @@ private void performSort(String selectedOption, boolean isAscendingOrder) {
 ```
 
 ### Narrative
-Discover more about my algorithmic approach and the learning curve in this project by reading my narrative [here](https://github.com/mbKirby/MatthewKirbyInventory/blob/master/AlgorithmNarrative.txt).
+Discover more about my algorithmic approach and the learning curve in this project by reading my narrative [here](https://github.com/mbKirby/MatthewKirbyInventory/blob/master/AlgorithmNarrative.txt). For a downloadable version of the narrative, please visit [my repository on GitHub](https://github.com/mbKirby/MatthewKirbyInventory/tree/master).
+
 
 ---
 
@@ -178,7 +181,7 @@ For the Grazioso Salvare web app's MongoDB Python module, initially developed in
 
 
 ### Source Code
-In the Databases section, I display my proficiency in database management and security through the MongoDB Python Module for the Grazioso Salvare web app. The following code excerpt exemplifies my ability in ensuring data integrity and secure handling. [View the complete source code on GitHub](https://github.com/mbKirby/CS-340-Client-Server-Development)
+In the Databases section, I display my proficiency in database management and security through the MongoDB Python Module for the Grazioso Salvare web app. The following code excerpt exemplifies my ability to ensure data integrity and secure handling. [View the complete source code on GitHub](https://github.com/mbKirby/CS-340-Client-Server-Development)
 
 This code snippet showcases my attention to database security and data integrity. By implementing thorough data validation, I demonstrate my commitment to writing secure and reliable database interactions.
 ```
@@ -195,7 +198,7 @@ def _validate_data(self, data):
 ```
 
 ### Narrative
-Learn about my journey in database management and the enhancements I made by reading my narrative here.
+Learn about my journey in database management and the enhancements I made by reading my narrative [here](https://github.com/mbKirby/CS-340-Client-Server-Development/blob/main/Databases%20Narrative). For a downloadable version of the narrative, please visit [my repository on GitHub](https://github.com/mbKirby/CS-340-Client-Server-Development).
 
 ---
 
