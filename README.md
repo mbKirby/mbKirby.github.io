@@ -27,7 +27,7 @@ In the Software Design and Engineering section, I showcase my ability to develop
 
 
 ### Source Code
-
+https://github.com/mbKirby/MatthewKirbyInventory/tree/master
 
 ### Narrative
 For a detailed journey of my enhancements and challenges in the Inventory Manager App, read my narrative here.
@@ -53,7 +53,20 @@ In the Databases section, I present my skills in database management and securit
 
 
 ### Source Code
+https://github.com/mbKirby/CS-340-Client-Server-Development
 
+```
+def _validate_data(self, data):
+        # Basic validation checks on the data
+        if not data:
+            raise ValueError("Data is empty")
+        if not isinstance(data, dict):
+            raise TypeError("Data must be a dictionary")
+        required_fields = ['animal_id', 'animal_type', 'breed', 'color', 'date_of_birth', 'sex_upon_outcome']
+        for field in required_fields:
+            if field not in data:
+                raise ValueError(f"Required field '{field}' is missing")
+```
 
 ### Narrative
 Learn about my journey in database management and the enhancements I made by reading my narrative here.
