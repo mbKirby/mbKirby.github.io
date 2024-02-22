@@ -18,17 +18,19 @@ Welcome to my CS 499 Capstone Project GitHub Page. This portfolio showcases my s
 ## Professional Self-Assessment
 As I reflect on my journey through the Computer Science program at SNHU, I realize how significantly my coursework and the development of my ePortfolio have shaped my professional trajectory. My initial interest in backend development evolved, leading me to a profound appreciation for front-end development and UI design. This shift is not just a change in interest but a testament to the program's influence in expanding my perspective and skills. My projects in CS 360 Mobile Architect Programming and MongoDB Python module showcase my adaptability and technical skills.
 
-Collaboration and Communication :
+### Collaboration and Communication :
 My project on the Inventory Manager App, as part of CS 360 Mobile Architect Programming, is a prime example of my growth in collaborative environments and communication. By enhancing the notification system I’ve improved communication with the users which has shown my ability to design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts. Additionally, implementing the report generation and data export features required me to think critically about user needs and preferences, which allowed me to employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in computer science. Overall, this process improved my ability to engage with diverse audiences and communicate complex technical information easily.
 
-Algorithms and Data Structures :
+### Algorithms and Data Structures :
 The implementation of a quicksort algorithm in the Inventory Management app was a direct application of algorithmic principles. This enhancement displays my ability to design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.
 
-Innovative Techniques and Tools :
+### Innovative Techniques and Tools :
 My work on the MongoDB Python Module for the Grazioso Salvare web app demonstrates my proficiency using innovative techniques and tools. By integrating CRUD operations through a form and enhancing mobile responsiveness. These actions showcase my ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals.
-Security Mindset :
+
+### Security Mindset : 
 Throughout the program, I’ve developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. For example, for my MongoDB Python project, I integrated essential validation and sanitization methods for POST requests, ensuring robust defense against data manipulation and injection attacks. Additionally, I’ve ensured that database connections and environmental variables are stored in their file and are not publicly available. In addition, I worked on a project for CS-465 where I developed a user registration and login system, incorporating JWT tokens to validate user sessions. These and many other instances in my time at SNHU have reinforced a security mindset.
-Integrating Artifacts and Skills:
+
+### Integrating Artifacts and Skills:
 Each of these projects and enhancements has contributed to a cohesive narrative of my abilities and growth in the field of computer science. The Inventory Manager App and MongoDB Python Module showcase my front-end development and user interface design skills as well as highlight my backend development capabilities and my understanding of database security.
 In conclusion, my ePortfolio is a comprehensive showcase of my skills and learning journey in the Computer Science program. It reflects not only my technical abilities but also my adaptability, problem-solving skills, and commitment to continuous learning and improvement. As I step into the professional world, I am confident in my ability to contribute effectively and innovatively in various roles within the computer science field.
 
@@ -41,7 +43,7 @@ In conclusion, my ePortfolio is a comprehensive showcase of my skills and learni
 
 ## Software Design and Engineering Artifact
 ### Overview
-In the Software Design and Engineering section, I showcase my ability to develop and enhance software applications, focusing on the Inventory Manager App. This project demonstrates my skills in object-oriented design, UI/UX design, and data handling. Enhancements include the implementation of a sophisticated notification system and a feature for generating and exporting reports, highlighting my adaptability and technical prowess in software engineering.
+The Inventory Manager App, an Android application I developed in CS 360 Mobile Architect Programming, displays my journey in software design engineering and user interface development. This app, designed for inventory management, allows users to track inventory items, their quantities, and details. My enhancements included a major upgrade to the notification system using Firebase Cloud Messaging (FCM) and the introduction of a report generation feature for exporting data in PDF or Excel formats. These enhancements demonstrate my skills in applying object-oriented programming principles, designing user-centric interfaces, and effectively handling data. The process of integrating FCM and developing a dynamic UI for the export feature deepened my understanding of user experience design, external library integration, and the importance of backend processing in-app functionalities.
 
 
 ### Source Code
@@ -124,12 +126,12 @@ For a detailed journey of my enhancements and challenges in the Inventory Manage
 
 ## Algorithms and Data Structure Artifact
 ### Overview
-The Algorithms and Data Structure section highlights my expertise in algorithmic problem-solving and data manipulation, showcased through the integration of a quicksort algorithm into the Inventory Manager App. This enhancement underlines my proficiency in applying algorithmic principles and optimizing data structures for efficient inventory management. [View the complete source code on GitHub](https://github.com/mbKirby/MatthewKirbyInventory/tree/master)
+In enhancing the Inventory Manager App, I focused on optimizing its performance and functionality through algorithmic problem-solving. The integration of the QuickSort algorithm enabled efficient and flexible sorting options, showcasing my proficiency in algorithm design and data structure manipulation. My experience with integrating this algorithm, especially considering diverse datasets and optimizing for the worst-case scenario, was a valuable learning opportunity that reinforced my understanding of practical algorithm application.
 
 
 
 ### Source Code
-Here, I showcase my expertise in algorithmic thinking and data structure manipulation through the integration of the QuickSort algorithm in the Inventory Manager App. The following snippets demonstrate my skill in efficiently sorting and managing data.
+Here, I showcase my expertise in algorithmic thinking and data structure manipulation through the integration of the QuickSort algorithm in the Inventory Manager App. The following snippets demonstrate my skill in efficiently sorting and managing data.  [View the complete source code on GitHub](https://github.com/mbKirby/MatthewKirbyInventory/tree/master)
 This snippet illustrates my ability to implement and optimize a crucial part of the QuickSort algorithm: the partitioning process. It highlights my understanding of algorithms and efficient data manipulation, a key skill in software development.
 ```
 private int partition(List<Item> items, int low, int high, SortCriteria criteria, SortOrder order) {
@@ -172,7 +174,7 @@ Discover more about my algorithmic approach and the learning curve in this proje
 
 ## Databases Artifact
 ### Overview
-In the Databases section, I present my skills in database management and security through my work on the MongoDB Python Module for the Grazioso Salvare web app. This project emphasizes my ability in CRUD operations, mobile responsiveness, and secure data handling, demonstrating my comprehensive understanding of database systems and security considerations.
+For the Grazioso Salvare web app's MongoDB Python module, initially developed in CS 340, my enhancements focused on comprehensive CRUD operations with mobile responsiveness. This project highlights my ability in database management and web development, particularly in secure data handling and responsive design. The challenges of responsive design and user input validation deepened my understanding of database management principles and broadened my skills in UI development. This experience was pivotal in my ability to create secure, user-friendly, and responsive web interfaces.
 
 
 ### Source Code
