@@ -42,7 +42,8 @@ In this section, I present a comprehensive code review of my initial projects. T
 
 Watch Part 1 of my Code Review on YouTube: [Code Review Video Part 1](https://youtu.be/GpgCJ_FFn5o)
 
-Watch Part 2 of my Code Review on YouTube: [Code Review Video Part 2](https://youtu.be/1D0sjYR6gl4)
+Watch Part 2 of my Code Review on YouTube: [Code Review Video Part 1](https://youtu.be/1D0sjYR6gl4)
+
 ---
 
 ## Software Design and Engineering Artifact
