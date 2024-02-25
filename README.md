@@ -40,9 +40,9 @@ In conclusion, my ePortfolio is a comprehensive showcase of my skills and learni
 ### Code Review
 In this section, I present a comprehensive code review of my initial projects. The review highlights key aspects of my code, my design choices, and the enhancements I've planned. This video serves as an insightful walkthrough of my thought process.
 
-Watch Part 1 of my Code Review on YouTube: [Code Review Video Part 1](https://youtu.be/GpgCJ_FFn5o)
+Watch Part 1 of my Code Review on YouTube: [Code Review Video Part 1](https://youtu.be/GpgCJ_FFn5o){:target="_blank"}.
 
-Watch Part 2 of my Code Review on YouTube: [Code Review Video Part 1](https://youtu.be/1D0sjYR6gl4)
+Watch Part 2 of my Code Review on YouTube: [Code Review Video Part 1](https://youtu.be/1D0sjYR6gl4){:target="_blank"}.
 
 ---
 
