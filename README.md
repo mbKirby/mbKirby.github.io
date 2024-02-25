@@ -53,7 +53,7 @@ The Inventory Manager App, an Android application I developed in CS 360 Mobile A
 
 ### Source Code
 ### Overview
-In this section, I highlight my capability in software design and engineering with a focus on the Inventory Manager App. Below are key code snippets that demonstrate my proficiency in advanced features like notification systems and report generation. *Please visit my [GitHub repository](https://github.com/mbKirby/MatthewKirbyInventory/tree/master) for the complete code.*
+In this section, I highlight my capability in software design and engineering with a focus on the Inventory Manager App. Below are key code snippets that demonstrate my proficiency in advanced features like notification systems and report generation. *Please visit my [GitHub repository](https://github.com/mbKirby/MatthewKirbyInventory/tree/master) for the complete code.* I have included a zip file in my repository containing the pre-enhanced version of the Inventory Manager App code. This file provides a valuable comparison to understand the improvements and modifications made in the project,
 
 This snippet from the Inventory Manager App demonstrates an advanced implementation of Firebase Cloud Messaging (FCM). It showcases my ability to handle incoming notifications and data payloads effectively. This feature enhances the app's interactivity and responsiveness, providing real-time updates to users, which is crucial in modern application development.
 ```
@@ -186,7 +186,7 @@ For the Grazioso Salvare web app's MongoDB Python module, initially developed in
 
 
 ### Source Code
-In the Databases section, I display my proficiency in database management and security through the MongoDB Python Module for the Grazioso Salvare web app. The following code excerpt exemplifies my ability to ensure data integrity and secure handling. [View the complete source code on GitHub](https://github.com/mbKirby/CS-340-Client-Server-Development)
+In the Databases section, I display my proficiency in database management and security through the MongoDB Python Module for the Grazioso Salvare web app. The following code excerpt exemplifies my ability to ensure data integrity and secure handling. [View the complete source code on GitHub](https://github.com/mbKirby/CS-340-Client-Server-Development) I have included a zip file in my repository containing the pre-enhanced version of the MongoDB Python App code. This file provides a valuable comparison to understand the improvements and modifications made in the project,
 
 This code snippet showcases my attention to database security and data integrity. By implementing thorough data validation, I demonstrate my commitment to writing secure and reliable database interactions.
 ```
